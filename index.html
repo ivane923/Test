@@ -8,12 +8,58 @@
 <body>
     <ol type="1">
         <li>$ git init</li>
-        <li>$ git add - commands 
-        	<ul type="">
+        <li>$ git add - <i>COMMANDS</i> 
+        	<ul type="circle">
         		<li>git add -A = git add -all</li>
-        		
+        		<li>In git version 2.x
+        			<table>
+        				<thead>
+        					<tr>
+        						<th>
+        							Commands
+        						</th>
+        						<th>
+        							New Files
+        						</th>
+        						<th>
+        							Modified Files
+        						</th>
+        						<th>
+        							Deleted Files
+        						</th>
+        					</tr>
+        				</thead>
+        				<tbody>
+        					<tr>
+        						<th>git add -A</th>
+        						<th> / </th>
+        						<th> / </th>
+        						<th> / </th>
+        					</tr>
+        					<tr>
+        						<th>git add .</th>
+        						<th> / </th>
+        						<th> / </th>
+        						<th> / </th>
+        					</tr>
+        					<tr>
+        						<th>git add --ignore-removal .</th>
+        						<th> / </th>
+        						<th> / </th>
+        						<th> X </th>
+        					</tr>
+        					<tr>
+        						<th>git add -u</th>
+        						<th> X </th>
+        						<th> / </th>
+        						<th> / </th>
+        					</tr>
+        				</tbody>
+        			</table>
+        		</li>
         	</ul>
         </li>
+        <li>$ git remote add origin(is nickname) [branch] </li>
     </ol>
 </body>
 </html>
