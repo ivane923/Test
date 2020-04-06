@@ -2,8 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
     <title>Git Tutorial</title>
+    <style type="text/css">
+    	:root {
+    		--gray: #6c757d;
+    		--lightgray: #ddd;
+    	}
+    	body {
+    		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    		padding: 0;
+    		margin: 0;
+    		box-sizing: border-box;
+    	}
+    	table {
+    		border-collapse: collapse;
+    	}
+    	table,td,td {
+    		border: 1px solid var(--gray);
+    	}
+    	td,a {
+    		padding: 8px;
+    	}
+    </style>
 </head>
 <body>
     <ol type="1">
@@ -13,53 +34,55 @@
         		<li>git add -A = git add -all</li>
         		<li>In git version 2.x
         			<table>
-        				<thead>
+        				<tdead>
         					<tr>
-        						<th>
+        						<td>
         							Commands
-        						</th>
-        						<th>
+        						</td>
+        						<td>
         							New Files
-        						</th>
-        						<th>
+        						</td>
+        						<td>
         							Modified Files
-        						</th>
-        						<th>
+        						</td>
+        						<td>
         							Deleted Files
-        						</th>
+        						</td>
         					</tr>
-        				</thead>
+        				</tdead>
         				<tbody>
         					<tr>
-        						<th>git add -A</th>
-        						<th> / </th>
-        						<th> / </th>
-        						<th> / </th>
+        						<td>git add -A</td>
+        						<td> / </td>
+        						<td> / </td>
+        						<td> / </td>
         					</tr>
         					<tr>
-        						<th>git add .</th>
-        						<th> / </th>
-        						<th> / </th>
-        						<th> / </th>
+        						<td>git add .</td>
+        						<td> / </td>
+        						<td> / </td>
+        						<td> / </td>
         					</tr>
         					<tr>
-        						<th>git add --ignore-removal .</th>
-        						<th> / </th>
-        						<th> / </th>
-        						<th> X </th>
+        						<td>git add --ignore-removal .</td>
+        						<td> / </td>
+        						<td> / </td>
+        						<td> X </td>
         					</tr>
         					<tr>
-        						<th>git add -u</th>
-        						<th> X </th>
-        						<th> / </th>
-        						<th> / </th>
+        						<td>git add -u</td>
+        						<td> X </td>
+        						<td> / </td>
+        						<td> / </td>
         					</tr>
         				</tbody>
         			</table>
         		</li>
         	</ul>
         </li>
-        <li>$ git remote add origin(is nickname) [branch] </li>
+        <li>$ git remote add origin(nickname) [repo url] </li>
+        <li>$ git push -u origin master / git push origin master / git push --force [remote_repository] </li>
     </ol>
+    <a href="http://samranga.blogspot.com/2015/07/create-git-bitbucket-repository-from.html?view=sidebar">Helpful link</a>
 </body>
 </html>
